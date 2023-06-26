@@ -1,63 +1,29 @@
-# CodeIgniter 4 Application Starter
+# WebGIS PTPN
 
-## What is CodeIgniter?
+## Deskripsi Projek
+Projek ini merupakan sebuah sistem informasi Website yang digunakan untuk menangani pemesanan tempat di cafe dari berbagai macam cabang yang ada.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Tujuan utamanya adalah untuk membantu kinerja para pecinta cafe untuk booking cafe yang ada di seluruh indonesia. Dengan sistem ini akan membantu user dalam booking cafe terdekat yang ada di sekitarnya menjadi lebih efisien.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Tujuan
+WebGIS ini dikembangkan sebagai tugas PKL ( Praktik Kerja Lapangan ) yang dilakukan di perusahaan PT Perkebunan Nusantara VII selama 40 hari. Selain mengkodekan modul kami sendiri, pada akhirnya saya diberi tanggung jawab untuk bertemu dengan bagian pertanahan guna mendiskusikan dan menyelesaikan masalah yang mereka hadapi dengan mengembangkan Website agar dapat mengakses informasi langsung dari bagian pertanahan guna untuk mempermudah seluruh bagian yang terlibat dalam mengetahui berbagai informasi terbaru. tugas PKL ini dapat membuat saya mempunyai pengalaman akan hal pembuatan real project dalam dunia kerja seperti membuat basis data dengan mengikuti skema basis data yang diperlukan, pengembangan fitur dan lain-lain.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Projek ini dibuat sebagai tugas Praktikum  yang dilakukan dalam mata kuliah web lanjut. Seluruh kelas dibagi menjadi tim yang terdiri dari 3-4 orang dalam masing-masing tim dan memilih sistem apa yang ingin dikembangkan. kami diberi waktu selama kurang lebih 2-3 bulan untuk menyelesaikan projek tersebut. selama periode tersebut kami berdiskusi tentang bagaimana memaksimalkan fungsionalitas dan fitur yang dibutuhkan kedepannya. Latihan ini membuat kami terbiasa dengan membuat web dari 0 sebagai proyek dalam mata kuliah Web Lanjut.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## User dan Karateristik
+Terdaapat 2 tipe user dalam projek ini, yaitu:
+### 1. User
+Pelanggan berinteraksi dengan sistem kami secara langsung untuk memesan cafe yang ingin di booking beserta jumlah kursinya. Kami tidak menyimpan informasi apa pun yang terkait dengan pelanggan di sistem kami. Proses pengambilan pesanan dimulai dari pelanggan yang melakukan pemesanan hingga data tercatat dalam daatabase admin.
 
-## Installation & updates
+### 2. Admin
+Tugas admin adalah mengelola inventaris dan informasi lain yang terkait dengan pesanan customer hingga beberapa cafe dan cabang yang telah dibuka.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+## Screenshoot dari beberapa UI
+![admin 1](https://github.com/fulan1234/cafeloka/assets/116423371/a3b79809-e59a-4711-a78f-f73e292e8aec)
+![dashboard user](https://github.com/fulan1234/cafeloka/assets/116423371/cd6c83ae-3ef1-4435-aa7b-e4af1b013c86)
+![booking cafe](https://github.com/fulan1234/cafeloka/assets/116423371/95994b3c-5019-4898-964a-4a299b92997f)
+![admin daerah](https://github.com/fulan1234/cafeloka/assets/116423371/722de96c-066b-480b-a0d8-3cc2c84a5709)
+![user daerah](https://github.com/fulan1234/cafeloka/assets/116423371/5121d185-9368-45c3-9f72-1381a99660ca)
+![user cabang](https://github.com/fulan1234/cafeloka/assets/116423371/7a9c1227-c0d2-4257-9de6-95f77a022823)
+![login](https://github.com/fulan1234/cafeloka/assets/116423371/822bb162-d662-4e33-a7da-39bc949e3833)
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
