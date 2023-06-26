@@ -6,8 +6,6 @@ Projek ini merupakan sebuah sistem informasi Website yang digunakan untuk menang
 Tujuan utamanya adalah untuk membantu kinerja para pecinta cafe untuk booking cafe yang ada di seluruh indonesia. Dengan sistem ini akan membantu user dalam booking cafe terdekat yang ada di sekitarnya menjadi lebih efisien.
 
 ## Tujuan
-WebGIS ini dikembangkan sebagai tugas PKL ( Praktik Kerja Lapangan ) yang dilakukan di perusahaan PT Perkebunan Nusantara VII selama 40 hari. Selain mengkodekan modul kami sendiri, pada akhirnya saya diberi tanggung jawab untuk bertemu dengan bagian pertanahan guna mendiskusikan dan menyelesaikan masalah yang mereka hadapi dengan mengembangkan Website agar dapat mengakses informasi langsung dari bagian pertanahan guna untuk mempermudah seluruh bagian yang terlibat dalam mengetahui berbagai informasi terbaru. tugas PKL ini dapat membuat saya mempunyai pengalaman akan hal pembuatan real project dalam dunia kerja seperti membuat basis data dengan mengikuti skema basis data yang diperlukan, pengembangan fitur dan lain-lain.
-
 Projek ini dibuat sebagai tugas Praktikum  yang dilakukan dalam mata kuliah web lanjut. Seluruh kelas dibagi menjadi tim yang terdiri dari 3-4 orang dalam masing-masing tim dan memilih sistem apa yang ingin dikembangkan. kami diberi waktu selama kurang lebih 2-3 bulan untuk menyelesaikan projek tersebut. selama periode tersebut kami berdiskusi tentang bagaimana memaksimalkan fungsionalitas dan fitur yang dibutuhkan kedepannya. Latihan ini membuat kami terbiasa dengan membuat web dari 0 sebagai proyek dalam mata kuliah Web Lanjut.
 
 ## User dan Karateristik
