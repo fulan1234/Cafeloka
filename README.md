@@ -1,4 +1,4 @@
-# WebGIS PTPN
+# Cafeloka
 
 ## Deskripsi Projek
 Projek ini merupakan sebuah sistem informasi Website yang digunakan untuk menangani pemesanan tempat di cafe dari berbagai macam cabang yang ada.
